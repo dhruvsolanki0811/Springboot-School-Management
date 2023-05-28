@@ -12,6 +12,7 @@
 	<artifactId>example_45</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>example_45</name>
+	<packaging>jar</packaging>
 	<description>Eazy School Web Application</description>
 	<properties>
 		<java.version>11</java.version>
@@ -87,11 +88,13 @@
 	</dependencies>
 
 	<build>
+		<finalName>eazeschool-aws-dep</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+
 		</plugins>
 	</build>
 
